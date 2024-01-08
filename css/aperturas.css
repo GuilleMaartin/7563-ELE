@@ -168,7 +168,7 @@ ul {
 header {
   display: flex;
   position: relative;
-  background-image: url(https://i.postimg.cc/v81PvHRG/7642-ELE-Revista-Digital-Mundo-L-Nº32-Octubre2023-FondoHome.png);
+  background-image: url(https://i.ibb.co/0yBsP0p/D5A7145.jpg);
   background-color: #Caad11;
   background-size: cover;
   background-position: center;
@@ -394,20 +394,42 @@ main {
   #destacado {
     padding: 30px 0;
     display: flex;
-    border-bottom: 1px solid #ccc;
-    width: 190%;
-    transform: scale(0.7);
-    flex-direction: column;
-    margin-left: -20pc;
-    margin-top: -6pc;
+    /* border-bottom: 1px solid #ccc; */
+    width: 100%;
+    transform: scale(0.9);
+    /* flex-direction: column; */
+    /* margin-left: -20pc; */
+  
   }
 }
 
 #destacado h4 {
     font-size: 4.5em;
-    margin-bottom: 10px;
+    margin-bottom: -30px;
     line-height: 1.1;
-    margin-top: 30px;
+    margin-top: 0px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+@media screen and (min-width: 1090px) {
+  #destacado h4{
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    margin-top: 0px;
+    width: 50%;
+  }
+}
+
+#destacado p {
+  font-size: 28px; 
+}
+
+@media screen and (min-width: 1090px) {
+#destacado p{
+  font-size: 25px; 
+}
 }
 
 #destacado h5 {
@@ -601,9 +623,9 @@ footer {
 }
 
 .foot {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -630,7 +652,15 @@ footer {
       margin-top: 25px;
       margin-bottom: -10px;
     }
-    
+    @media screen and (min-width: 1090px) {
+    .imagen {
+      width: 90%;
+      height: 15pc;
+      object-fit: cover;
+      margin-top: 25px;
+      margin-bottom: -10px;
+    }
+  }
     
     
     .ampliada {
@@ -732,3 +762,257 @@ footer {
         width: 52%;
       }
     }
+
+
+    .menu1 {
+        width: 100%; 
+        background-color: #e16e42; 
+        color: #ffffff; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    @media screen and (min-width: 1090px) {
+        .menu1{
+            width: 100%; 
+            background-color: #e16e42; 
+            color: #ffffff; display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            height: 70;
+        }
+      }
+
+      .principalimg1{
+        width: 100%;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .principalimg1{
+          width: 50%;
+        }
+      }
+
+      .mundo1 img{
+        width: 100%;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .mundo1 img{
+          width: 50%;
+        }
+      }
+
+      .mundo1 {
+        display: flex;
+        flex-direction: column;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .mundo1 {
+          display: flex;
+          flex-direction: row;
+        }
+      }
+
+      .mundo1 p{
+        font-size: 35px;
+      background-color: #0b5d6b;
+      color: white;
+      padding: 55px;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .mundo1 p{
+          font-weight: bold;
+          font-size: 25px;
+        color: #0b5d6b;
+        background-color: rgba(250, 235, 215, 0);
+        padding: 55px;
+        }
+      }
+
+      .imageprincipal{
+        display: none;
+      }
+
+
+      .tarjeta1{
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around; 
+        background-color: #005b9c1e; 
+        padding: 20px; width: 90%; 
+        border-radius: 50px; 
+        margin-top: 50px;
+      }
+
+      .tarjeta2{
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around; 
+        background-color: #005b9c1e; 
+        padding: 20px; width: 90%; 
+        border-radius: 50px; 
+        margin-top: 50px;
+      }
+
+      .tarjetas {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .tarjetas{
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+        }
+      }
+
+      .tarjeta1 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .tarjeta1{
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          transform: scale(0.8);
+        }
+      }
+
+      @media screen and (min-width: 1090px) {
+        .tarjeta1 img{
+          margin-bottom: 30px;
+          width: 18pc;
+        }
+      }
+
+      .tarjeta1 h3{
+        font-size: 50px; 
+      }
+
+      @media screen and (min-width: 1090px) {
+        .tarjeta1 h3{
+          font-size: 40px;
+          margin-left: 50px; 
+        }
+      }
+
+      .tarjeta1 p{
+        font-size: 30px;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .tarjeta1 p{
+          font-size: 30px;
+        }
+      }
+
+      .tarjeta2 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .tarjeta2{
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          transform: scale(0.8);
+        }
+      }
+
+      .tarjeta2 img{
+        margin-bottom: 30px;
+        width: 18pc;
+        margin-left: -2pc;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .tarjeta2 img{
+          margin-bottom: 30px;
+          width: 18pc;
+          margin-left: 10px;
+        }
+      }
+
+      .tarjeta2 h3{
+        font-size: 50px;  
+      }
+
+      @media screen and (min-width: 1090px) {
+        .tarjeta2 h3{
+          font-size: 40px; 
+          margin-left: 50px;
+        }
+      }
+
+      .tarjeta2 p{
+        font-size: 30px;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .tarjeta2 p{
+          font-size: 30px;
+        }
+      }
+
+
+      .texto1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+
+      @media screen and (min-width: 1090px) {
+        .texto1{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+
+      .texto2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .texto2{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-left: 140px;
+        }
+      }
+
+      .textos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+      }
+
+      @media screen and (min-width: 1090px) {
+        .textos{
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          margin-top: 30px;
+        }
+      }
+
+
+
