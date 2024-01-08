@@ -387,7 +387,6 @@ main {
     padding: 20px 0;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #ccc;
 }
 
 @media screen and (min-width: 1090px) {

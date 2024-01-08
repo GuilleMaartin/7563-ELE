@@ -439,9 +439,7 @@ main {
   }
 }
 
-#destacado p {
-  font-size: 28px; 
-}
+
 
 @media screen and (min-width: 1090px) {
 #destacado p{
