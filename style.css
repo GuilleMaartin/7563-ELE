@@ -169,7 +169,6 @@ header {
   display: flex;
   position: relative;
   background-image: url(https://i.postimg.cc/v81PvHRG/7642-ELE-Revista-Digital-Mundo-L-Nº32-Octubre2023-FondoHome.png);
-  background-color: #Caad11;
   background-size: cover;
   background-position: center;
   height: 1400px;
@@ -184,13 +183,12 @@ header {
   header {
     display: flex;
     position: relative;
-    background-image: url(https://i.ibb.co/0yBsP0p/D5A7145.jpg);
-    background-color: #Caad11;
+    background-image: url(https://i.postimg.cc/v81PvHRG/7642-ELE-Revista-Digital-Mundo-L-Nº32-Octubre2023-FondoHome.png);
     background-size: cover;
     background-position: center;
     height: 850px;
     z-index: -2;
-    justify-content: flex-start;
+    justify-content: flex-start;  
     flex-direction: column;
     align-items: center;
     margin-top: -90px;
