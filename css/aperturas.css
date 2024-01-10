@@ -12,11 +12,6 @@ Text Domain: ele-newsletter
 
 
 /* Estilos generales */
-@media screen and (max-width:500px) {
-  .imagen-central{
-    width: 100%;
-  }
-} 
 
 
 body {
