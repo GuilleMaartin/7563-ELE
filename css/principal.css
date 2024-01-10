@@ -365,6 +365,7 @@ main {
 
 .principal img {
     margin-right: 10px;
+    width: fit-content;
 }
 
 .principal h2 {
@@ -375,7 +376,7 @@ main {
   padding: 10px;
   display: flex;
   font-size: 24px;
-  width: 100%;
+  width: fit-content;
   align-items: center;
 }
 
